@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-#####################################-A Daroc Project: Tip Calculator-######################################################
+#####################################-A Daroc Production: Tip Calculator-######################################################
 
 # Introduction print function
 print("Welcome to the tip calculator!")
