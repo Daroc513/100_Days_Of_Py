@@ -8,5 +8,5 @@ sport =  input ("Whats your favorite sport?\n")
 city = input("What city are you from?\n")
 #Asks the user for the name of a pet.
 pet = input("What was the name of your favorite pet?\n")
-# Creats the users sports team
+# Creates the users sports team
 print("You should own a " + sport + " team. Yea, name it the "+ city + " " + pet + "s")
