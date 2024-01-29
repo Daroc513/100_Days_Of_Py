@@ -24,7 +24,7 @@ total_tip = round(bill_split / tip, 2)
 # Variable Adds the now split bill and the tip
 bill_per = bill_split + total_tip
 
-# Funnction rounds the total bill plus tip per person to the second decimal
+# Variable rounds the total bill plus tip per person to the second decimal
 final_amount = round(bill_per, 2)
 
 # Final print function with results
