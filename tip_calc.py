@@ -12,16 +12,16 @@ tip_amount = int(input("What percentage tip would you like to give? 10, 12, 15? 
 
 split = int(input("How many people are splitting the bill? "))
 
-# Divides the total bill inputed by the number of people inputed then rounds to the second decimal
+# Variable divides the total bill inputed by the number of people inputed then rounds to the second decimal
 bill_split = round(bill / split, 2)
 
-# Variable calculates the tip amount
+# Variable calculates the input on line 11 to a percentage
 tip = 100 / tip_amount
 
-# Function calculates tip then rounds the tip to the 2nd decimal
+# Variable calculates tip then rounds the tip to the 2nd decimal
 total_tip = round(bill_split / tip, 2)
 
-# Function adds the now split bill and the tip
+# Variable Adds the now split bill and the tip
 bill_per = bill_split + total_tip
 
 # Funnction rounds the total bill plus tip per person to the second decimal
