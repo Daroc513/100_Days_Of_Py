@@ -106,7 +106,7 @@ ___________________________________________________________________
           \n''')
   #2nd choice variable
   choice2 = input('You made it to the city of Tangier in Egypt!\n You\'ve never been away from home before and you are amazed by the city as you walk around.\n Out of nowhere, 3 men surround you, beat you up and take all your money!.\nWill you work for the funds to get to the pyramids of Egypt or will you go home?\nType "work" to get a job or "quit" to give up and go home.\n').lower()
-  if choice2 == "job":
+  if choice2 == "work":
     print("You decide to find a job to earn the money needed to continue your journey to the pyramids of Egypt.\nYou find employment working for a crystal merchant.")
     print("\nMonths go by working for the crystal merchant you've earned enough money to travel the desert and make it to the pyramids!\n")
     print("You leave the crystal merchant and set towards the pyramids. You buy a camel and as your leaving Tangier you see King Musa!\n")
@@ -153,7 +153,7 @@ ___________________________________________________________________
                                                     .   .          
                                                        \n''')
           #Final choice variable
-          choice5 = input(f'You make it to the pyramids {name}, your so close to your treasure you can feel it.\nAs you enter the pyramids you find looters! They knock you out and leave you for dead.\nWhen you awake you gather what strength you can you find your treasure but it\s all been looted\n You cry and out of depression. After all who can blame you after all you have been through. What now? Type "give up" or "think"\n').lower()
+          choice5 = input(f'You make it to the pyramids {name}, your so close to your treasure you can feel it.\nAs you enter the pyramids you find looters! They knock you out and leave you for dead.\nWhen you awake you gather what strength you can to find your treasure but it\s all been looted\n You cry out of depression. After all who can blame you after all you have been through. What now? Type "give up" or "think"\n').lower()
           if choice5 == "think":
             print("You realize where the treasure is!\nYou go home and find your lover awaiting your arrival next to the Sycamore tree where it all started!\n As you reflect you realize that the true treasure was the journey.\nYou live a happy fulfilled life!")
             print('''\n*******************************************************************************
