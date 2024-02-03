@@ -5,7 +5,7 @@
 # Introduction print function
 print("Welcome to the tip calculator!")
 
-# float and integer input functions for total bill, tip amount and number of people splitting bill
+# float class and integer class input functions for total bill, tip amount and number of people splitting bill
 bill = float(input("What is your total bill? $"))
 
 tip_amount = int(input("What percentage tip would you like to give? 10, 12, 15? "))
