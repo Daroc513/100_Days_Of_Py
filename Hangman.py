@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 import os
 # Import the 'os' module to interact with the operating system to clear the screen after every guess
 
@@ -26,8 +27,7 @@ lives = 6
 print(logo)
 # Print the Hangman game logo
 
-print("A Daroc production\n")
-# Print additional information about the production
+print("*******************-A Daroc production-*********************************\n")
 
 display = []
 # Initialize an empty list to store the current state of the word being guessed
@@ -55,9 +55,6 @@ while not end_of_game:
     for position in range(word_length):
         letter = chosen_word[position]
         # Iterate through each position in the chosen word
-
-        # Uncomment the line below for debugging purposes
-        # print(f"Current position: {position}\nCurrent letter: {letter}\nGuessed letter: {guess}")
 
         if letter == guess:
             display[position] = letter
