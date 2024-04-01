@@ -1,4 +1,4 @@
-#!/user/bin/env python3
+#!/user/bin/env python
 
 # Import the logo from the 'caesarcipher_asci' module
 from caesarcipher_asci import logo
@@ -39,7 +39,7 @@ should_end = False
 # Main loop for user interaction
 while not should_end:
     # Get user input for the cipher direction
-    direction = input("Type 'encode' to encrypt, type 'decode to decrypt:\n")
+    direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
     # Get user input for the text to be encoded/decoded
     text = input("Type your message:\n").lower()
     # Get user input for the shift amount
